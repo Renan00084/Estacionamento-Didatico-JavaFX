@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="org.example.estacionamentojavafx.HelloController">
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.estacionamentojavafx.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -22,27 +22,53 @@
          <Font name="Verdana Bold" size="34.0" />
       </font>
    </Label>
-   <HBox prefHeight="240.0" prefWidth="200.0">
+   <HBox prefHeight="300.0" prefWidth="760.0">
       <children>
          <VBox prefHeight="190.0" prefWidth="380.0" style="-fx-border-radius: 3; -fx-border-color: gray; -fx-border-width: 1;">
             <HBox.margin>
                <Insets right="20.0" />
             </HBox.margin>
             <children>
-               <Label text="Label" />
+               <Label text="Registro de Entrada">
+                  <VBox.margin>
+                     <Insets left="110.0" />
+                  </VBox.margin>
+                  <font>
+                     <Font name="System Bold" size="16.0" />
+                  </font>
+               </Label>
+               <Label text="Digite a placa do carro:">
+                  <VBox.margin>
+                     <Insets top="10.0" />
+                  </VBox.margin></Label>
                <TextField />
-               <Label text="Label" />
+               <Label text="Digite o modelo do carro">
+                  <VBox.margin>
+                     <Insets top="10.0" />
+                  </VBox.margin></Label>
                <TextField />
-               <Label text="Label" />
+               <Label text="Digite a vaga na qual voce deseja estacioar">
+                  <VBox.margin>
+                     <Insets top="10.0" />
+                  </VBox.margin></Label>
                <TextField />
-               <Button mnemonicParsing="false" text="Button" />
+               <Button mnemonicParsing="false" text="Button">
+                  <VBox.margin>
+                     <Insets left="150.0" top="10.0" />
+                  </VBox.margin></Button>
             </children>
          </VBox>
          <VBox prefHeight="200.0" prefWidth="380.0" style="-fx-border-color: gray; -fx-border-radius: 3; -fx-border-width: 1;">
             <children>
-               <Label text="Label" />
+               <Label text="Digite a ">
+                  <VBox.margin>
+                     <Insets top="5.0" />
+                  </VBox.margin></Label>
                <TextField />
-               <Button mnemonicParsing="false" text="Button" />
+               <Button mnemonicParsing="false" text="Button">
+                  <VBox.margin>
+                     <Insets top="10.0" />
+                  </VBox.margin></Button>
             </children>
          </VBox>
       </children>
@@ -55,15 +81,30 @@
             </HBox.margin>
             <children>
                <Label text="Label" />
-               <Button mnemonicParsing="false" text="Button" />
+               <Button mnemonicParsing="false" text="Button">
+                  <VBox.margin>
+                     <Insets top="10.0" />
+                  </VBox.margin></Button>
             </children>
          </VBox>
          <VBox prefHeight="200.0" prefWidth="190.0" style="-fx-border-color: gray; -fx-border-radius: 3; -fx-border-width: 1;">
             <children>
-               <Label text="Label" />
-               <Label text="Label" />
-               <Label text="Label" />
-               <Label text="Label" />
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
                <Label text="Label" />
             </children>
             <HBox.margin>
@@ -72,10 +113,22 @@
          </VBox>
          <VBox prefHeight="200.0" prefWidth="190.0" style="-fx-border-radius: 3; -fx-border-color: gray; -fx-border-width: 1;">
             <children>
-               <Label text="Label" />
-               <Label text="Label" />
-               <Label text="Label" />
-               <Label text="Label" />
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
+               <Label text="Label">
+                  <VBox.margin>
+                     <Insets bottom="3.0" />
+                  </VBox.margin></Label>
                <Label text="Label" />
             </children>
          </VBox>
